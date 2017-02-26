@@ -1,0 +1,105 @@
+/* CSS Document */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	background-color:#242424;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+#container {
+	width: 1024px;
+	height: auto;
+}
+#logo {
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+#header {	
+	padding: 30px;
+	height: 170px;
+	border-bottom: thin solid #F7931e;
+}
+
+h1 {
+	color: #f7931e;
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+}
+h2 {
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	color: #FFCC99;
+	font-weight: bold;
+	text-align: center;
+}
+
+#navigation {
+	width: 160px;	
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+ul {
+	list-style: none }
+
+li {
+	padding: 8px;
+	text-align: left;
+	}	
+
+#navigation a:link {
+	color: 	#FF6666;
+	}
+#navigation a:visited {
+	color: #FF3300;
+	}
+#navigation a:hover {
+	font-style: italic;
+ 	color: #FFFFCC;
+	}
+
+	
+#insideinformation {
+	padding-top:20px;
+	width: 844px;
+	float: right;
+	padding: 0px 10px;
+
+}
+#footer {
+	width:1024px;
+	clear: both;  
+	font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	padding: 10px;
+	text-align: center; 
+	color:#FFFF33; 
+	border-top: thin solid #F7931e;	
+	}
+	
+	
+a:link {
+	color: #FFCCCC;
+}
+a:visited {
+	color: #FF3300;
+}
+a:hover {
+	font-style: italic;
+ 	color: #FFF;
+	}
+
+.style1 {
+	font-size: 12px;
+	font-style: italic;
+	color: #FFCC33;
+	font-weight: bold;
+}
